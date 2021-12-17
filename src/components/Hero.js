@@ -113,7 +113,7 @@ const Hero = () => {
     getData();
   };
   return (
-    <section className='relative w-full mx-auto herofull hero'>
+    <section className='relative w-full mx-auto herofull hero bg-primary'>
       <div className='h-full'>
         <div className='device-layout-component'>
           <div className='hero__bg'>

@@ -11,7 +11,11 @@ const Footer = () => {
           <div className='flex flex-col justify-center items-center space-y-2'>
             <ul className='flex justify-center space-x-4 mb-2'>
               <li className='bg-default p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
-                <a href='#' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://opensea.io/collection/lootedmonkeys'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <svg
                     class='text-black w-4 h-4'
                     viewBox='0 0 18 17'
@@ -26,7 +30,11 @@ const Footer = () => {
                 </a>
               </li>
               <li className='bg-default p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
-                <a href='#' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://www.Instagram.com/lootedmonkeysnft'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <svg
                     stroke='currentColor'
                     fill='currentColor'
@@ -42,7 +50,11 @@ const Footer = () => {
                 </a>
               </li>
               <li className='bg-default p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
-                <a href='#' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://www.twitter.com/lootedmonkeys'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <svg
                     stroke='currentColor'
                     fill='currentColor'
@@ -58,7 +70,11 @@ const Footer = () => {
                 </a>
               </li>
               <li className='bg-default p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
-                <a href='#' target='_blank' rel='noopener noreferrer'>
+                <a
+                  href='https://discord.com/invite/J6j3cMw2NY'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
                   <svg
                     stroke='currentColor'
                     fill='currentColor'

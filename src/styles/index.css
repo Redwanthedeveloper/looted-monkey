@@ -17,18 +17,18 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #000000;
+  background: #171020;
 }
 
 /* Button */
 .btn-gradient {
-  background: linear-gradient(270deg, #ff9dff, #00fbf5);
+  background: linear-gradient(270deg, #414ca0, #8ac3e2);
 }
 
 .btn-bg-gradient {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(90deg, #7f18bb, #35249b);
+  background: linear-gradient(270deg, #8ac3e2, #35249b);
 }
 
 .btn-bg-gradient:after,
@@ -46,7 +46,7 @@ body {
 }
 
 .btn-bg-gradient:before {
-  background: linear-gradient(90deg, #7f18bb, #35249b);
+  background: linear-gradient(90deg, #414ca0, #8ac3e2);
   z-index: 5;
   transition: left 0.9s cubic-bezier(0.86, 0, 0.07, 1);
 }

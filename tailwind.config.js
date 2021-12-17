@@ -5,7 +5,7 @@ module.exports = {
     textColor: {
       default: '#fff',
       black: '#000',
-      primary: '#7f18bb',
+      primary: '#8ac3e2',
       secondary: '#b22fff',
       danger: '#e3342f',
     },
@@ -15,7 +15,7 @@ module.exports = {
     backgroundColor: (theme) => ({
       ...theme('colors'),
       default: '#fff',
-      primary: '#3490dc',
+      primary: '#171020',
       secondary: '#ffed4a',
       danger: '#e3342f',
     }),
