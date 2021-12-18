@@ -128,9 +128,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='absolute inset-0 flex justify-center'>
+      <div className='absolute inset-0 flex justify-center items-center'>
         <div className='relative'>
-          <div className='relative mx-auto mt-40 sm:mt-56 sm:w-96 z-10'>
+          <div className='relative mx-auto sm:w-96 z-10'>
             <div className='relative text-center flex flex-col'>
               <h3 className='font-bold text-default text-4xl'>
                 {data.totalSupply} / {CONFIG.MAX_SUPPLY}

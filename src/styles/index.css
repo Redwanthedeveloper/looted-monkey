@@ -17,18 +17,20 @@ body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #171020;
+  background: linear-gradient(90deg, #102526, #1a1b42);
 }
 
 /* Button */
 .btn-gradient {
   background: linear-gradient(270deg, #414ca0, #8ac3e2);
+  border-radius: 30px;
 }
 
 .btn-bg-gradient {
   position: relative;
   overflow: hidden;
   background: linear-gradient(270deg, #8ac3e2, #35249b);
+  border-radius: 30px;
 }
 
 .btn-bg-gradient:after,
@@ -105,7 +107,20 @@ body {
   max-height: 100%;
   object-fit: contain;
 }
-
+/* roadmap */
+.roadmap__content::before {
+  content: '';
+  background: #171020;
+  width: 2.25rem;
+  height: 100%;
+  position: absolute;
+  border-radius: 3rem;
+  z-index: 999;
+  left: 50%;
+  top: 0;
+  transform: translate(-18px, -10px);
+  border: 5px solid #fff;
+}
 /* About */
 .grid__image {
   display: block;

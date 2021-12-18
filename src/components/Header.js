@@ -3,44 +3,43 @@ import Logo from '../images/logo.jpg';
 const Header = () => {
   return (
     <>
-      <nav className='bg-transparent py-3'>
+      <nav className='bg-transparent py-3 absolute top-0 z-10 w-full'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='flex justify-between'>
-            <div className='flex'>
-              <div className='flex-shrink-0 flex items-center'>
-                <a href='/' className='w-28 sm:w-48 h-auto justify-center'>
-                  <img src={Logo} alt='logo' />
-                </a>
-              </div>
-              <div className='hidden md:ml-6 md:flex md:items-center md:space-x-4'>
-                <a href='#about' target='_self'>
-                  <div className='text-default hover:text-primary px-3 py-2 font-medium'>
-                    About
-                  </div>
-                </a>
-                <a href='#feature' target='_self'>
-                  <div className='text-default hover:text-primary px-3 py-2 font-medium'>
-                    Features
-                  </div>
-                </a>
-                <a href='#roadmap' target='_self'>
-                  <div className='text-default hover:text-primary px-3 py-2 font-medium'>
-                    Roadmap
-                  </div>
-                </a>
-                <a href='#team' target='_self'>
-                  <div className='text-default hover:text-primary px-3 py-2 font-medium'>
-                    Team
-                  </div>
-                </a>
-                <a href='#faq' target='_self'>
-                  <div className='text-default hover:text-primary px-3 py-2 font-medium'>
-                    Faq
-                  </div>
-                </a>
-              </div>
+            <div className='flex-shrink-0 flex items-center'>
+              <a href='/' className='w-28 sm:w-32 h-auto justify-center'>
+                <img src={Logo} alt='logo' />
+              </a>
             </div>
-            <div className='flex items-center'>
+            <div className='hidden md:ml-6 md:flex md:items-center md:space-x-4'>
+              <a href='#about' target='_self'>
+                <div className='text-default hover:text-primary px-3 py-2 font-medium'>
+                  About
+                </div>
+              </a>
+              <a href='#feature' target='_self'>
+                <div className='text-default hover:text-primary px-3 py-2 font-medium'>
+                  Features
+                </div>
+              </a>
+              <a href='#roadmap' target='_self'>
+                <div className='text-default hover:text-primary px-3 py-2 font-medium'>
+                  Roadmap
+                </div>
+              </a>
+              <a href='#team' target='_self'>
+                <div className='text-default hover:text-primary px-3 py-2 font-medium'>
+                  Team
+                </div>
+              </a>
+              <a href='#faq' target='_self'>
+                <div className='text-default hover:text-primary px-3 py-2 font-medium'>
+                  Faq
+                </div>
+              </a>
+            </div>
+
+            {/* <div className='flex items-center'>
               <div className='hidden md:ml-4 md:flex-shrink-0 md:flex md:items-center'>
                 <ul className='flex justify-center items-center space-x-4'>
                   <li className='bg-default p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
@@ -124,7 +123,7 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>

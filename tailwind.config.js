@@ -15,9 +15,11 @@ module.exports = {
     backgroundColor: (theme) => ({
       ...theme('colors'),
       default: '#fff',
-      primary: '#171020',
+      primary: '#1a1b42',
       secondary: '#ffed4a',
       danger: '#e3342f',
+      line: '#324492',
+      phase: '#24294a',
     }),
     gradientColorStops: (theme) => ({
       ...theme('colors'),

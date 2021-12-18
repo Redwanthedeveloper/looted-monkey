@@ -8,18 +8,23 @@ const Footer = () => {
           <div className='display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0'>
             <img src={footerLogo} alt='footer logo' className='footer__logo' />
           </div>
-          <div className='flex flex-col justify-center items-center space-y-2'>
-            <ul className='flex justify-center space-x-4 mb-2'>
-              <li className='bg-default p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
+          <p className='text-center text-default'>
+            2021 copyright looted monkey
+          </p>
+          <div className='flex flex-col justify-center items-center space-y-2 fixed bottom-0 right-4 z-10'>
+            <ul className='flex justify-center  mb-2 gap-4'>
+              <li className='bg-black p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
                 <a
                   href='https://opensea.io/collection/lootedmonkeys'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   <svg
-                    class='text-black w-4 h-4'
+                    class='text-primary w-6 h-6'
                     viewBox='0 0 18 17'
                     fill='none'
+                    height='1em'
+                    width='1em'
                     xmlns='http://www.w3.org/2000/svg'
                   >
                     <path
@@ -29,7 +34,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
-              <li className='bg-default p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
+              <li className='bg-black p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
                 <a
                   href='https://www.Instagram.com/lootedmonkeysnft'
                   target='_blank'
@@ -40,7 +45,7 @@ const Footer = () => {
                     fill='currentColor'
                     stroke-width='0'
                     viewBox='0 0 448 512'
-                    class='text-black w-4 h-4'
+                    class='text-primary w-6 h-6'
                     height='1em'
                     width='1em'
                     xmlns='http://www.w3.org/2000/svg'
@@ -49,7 +54,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
-              <li className='bg-default p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
+              <li className='bg-black p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
                 <a
                   href='https://www.twitter.com/lootedmonkeys'
                   target='_blank'
@@ -60,7 +65,7 @@ const Footer = () => {
                     fill='currentColor'
                     stroke-width='0'
                     viewBox='0 0 512 512'
-                    class='text-black w-4 h-4'
+                    class='text-primary w-6 h-6'
                     height='1em'
                     width='1em'
                     xmlns='http://www.w3.org/2000/svg'
@@ -69,7 +74,7 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
-              <li className='bg-default p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
+              <li className='bg-black p-1.5 rounded-full hover:ring-2 hover:ring-primary'>
                 <a
                   href='https://discord.com/invite/J6j3cMw2NY'
                   target='_blank'
@@ -80,7 +85,7 @@ const Footer = () => {
                     fill='currentColor'
                     stroke-width='0'
                     viewBox='0 0 640 512'
-                    class='text-black w-4 h-4'
+                    class='text-primary w-6 h-6'
                     height='1em'
                     width='1em'
                     xmlns='http://www.w3.org/2000/svg'

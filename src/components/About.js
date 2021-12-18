@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <div
-        className='about mt-10 mx-auto max-w-7xl px-4 sm:px-0 sm:mt-24'
+        className='about mt-10 mx-auto w-full lg:max-w-7xl px-4 sm:px-0 sm:mt-24'
         id='about'
       >
         <div className='grid sm:grid-cols-12 items-center'>
@@ -39,24 +39,21 @@ const About = () => {
               <p className='text-default'>Welcome to the</p>
               <p className='text-primary'>Looted Monkeys</p>
             </h2>
-            <div className='text-sm sm:text-lg text-gray font-normal mt-10'>
-              <div className='bcm leading-relaxed'>
+            <div className='text-sm sm:text-lg text-gray font-normal mt-10 '>
+              <div className='bcm leading-relaxed text-default'>
                 <p>
-                  <strong>What is Looted Monkeys? </strong> Looted monkeys is a
-                  collection of 5000
-                  <strong>hand drawn and randomly generated monkeys</strong>
-                  living on the Ethereum blockchain, it’s home to a wide variety
-                  of personalities&nbsp;from artists and influencers.
+                  What is Looted Monkeys? Looted monkeys is a collection of 5000
+                  hand drawn and randomly generated monkey living on the
+                  Ethereum blockchain, it’s home to a wide variety of
+                  personalities&nbsp;from artists and influencers.
                   <br />
                   <br />
                   <br />
-                  Each{' '}
-                  <strong>monkey is made up of a unique combination </strong>,of
-                  hats eyes, mouths , and outfits to match your vibe.{' '}
-                  <strong>Our</strong> club is community driven , holding a
-                  monkey allows you to take part in coordinating the clubs
-                  future , development and direction. If you haven’t found a
-                  place in the meta verse , Loot up!
+                  Each monkey is made up of a unique combination,of hats eyes,
+                  mouths , and outfits to match your vibe. Our club is community
+                  driven , holding a monkey allows you to take part in
+                  coordinating the clubs future , development and direction. If
+                  you haven’t found a place in the meta verse , Loot up!
                 </p>
               </div>
             </div>
@@ -64,10 +61,10 @@ const About = () => {
         </div>
         <div
           id='whyus'
-          className='mt-10 mx-auto max-w-7xl px-4 sm:px-0 sm:mt-24 lg:mt-32'
+          className='mt-10 mx-auto w-full lg:max-w-7xl px-4 sm:px-0 sm:mt-24 lg:mt-32'
         >
-          <div className='grid sm:grid-cols-12 items-center'>
-            <div className='sm:pr-16 sm:text-left lg:col-span-6'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 items-center w-full'>
+            <div className='sm:pr-16 sm:text-left'>
               <p className='label-title'>
                 Features
                 <span className='hidden sm:block label-line'></span>
@@ -76,17 +73,13 @@ const About = () => {
                 <p className='text-default'>An Exclusive</p>
                 <p className='text-primary'>Looted Monkey</p>
               </h2>
-              <div className='text-sm sm:text-lg text-gray font-normal mt-10'>
-                <div className='bcm leading-relaxed'>
+              <div className='text-sm sm:text-lg text-gray font-normal lg:mt-10 w-full '>
+                <div className='leading-relaxed w-full overflow-hidden text-default'>
                   <p>
-                    TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
-                    TEXTTEXTTEXTTEXTvvTEXTTEXT{' '}
-                    <strong>TEXTTEXTTEXTTEXTTEXTTEXT</strong>. TEXTTEXTTEXTTEXT
-                    TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT :{' '}
-                    <strong>the looted monkey</strong>. TEXTTEXTTEXTTEXTTEXT
-                    TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT{' '}
-                    TEXTTEXTTEXTTEXTTEXTTEXTTEXT
-                    <strong>TEXT</strong>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quaerat odio dolorem, nulla perspiciatis placeat accusamus,
+                    doloribus ad quod nobis facere dolores molestias aliquam
+                    consectetur? Quod sequi minima placeat tempora neque.
                   </p>
                 </div>
                 <div className='flex flex-row flex-wrap gap-2 sm:gap-4 mt-5 sm:mt-10'>
@@ -109,7 +102,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className='mt-5 sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center'>
+            <div className='mt-5 sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:flex lg:items-center'>
               <div className='flex-shrink-0 w-full'>
                 <div className='grid gap-2 sm:gap-4'>
                   <div>

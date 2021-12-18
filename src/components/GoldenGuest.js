@@ -1,5 +1,5 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import Slider from 'react-slick';
 import sliderImage1 from '../images/slider/1.png';
 import sliderImage2 from '../images/slider/2.png';
 import sliderImage3 from '../images/slider/3.png';
@@ -9,6 +9,32 @@ import sliderImage6 from '../images/slider/6.png';
 import sliderImage7 from '../images/slider/7.png';
 
 const GoldenGuest = () => {
+  const settings = {
+    className: 'center',
+    centerMode: true,
+    infinite: true,
+    autoplay: true,
+    centerPadding: '0',
+    slidesToShow: 1,
+    speed: 3000,
+    rows: 3,
+    slidesPerRow: 9,
+    autoplaySpeed: 100,
+    easing: 'linear',
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          rows: 3,
+          slidesPerRow: 3,
+        },
+      },
+    ],
+  };
   return (
     <>
       <section className='w-full mt-8 sm:mt-14 mx-auto bg-black px-4 py-8 sm:pt-20 sm:pb-12'>
@@ -33,58 +59,101 @@ const GoldenGuest = () => {
           </div>
         </div>
         <div>
-          <Swiper
-            slidesPerView={6}
-            spaceBetween={15}
-            freeMode={false}
-            pagination={{
-              clickable: true,
-            }}
-            className='mySwiper'
-          >
-            <SwiperSlide>
-              <img src={sliderImage1} alt='' />
-              {/* <h3 className='mt-2 sm:mt-4 text-default uppercase font-bold text-center text-sm'>
-                StreeApe
-              </h3> */}
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage2} alt='' />
-              {/* <h3 className='mt-2 sm:mt-4 text-default uppercase font-bold text-center text-sm'>
-                StreeApe
-              </h3> */}
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage3} alt='' />
-              {/* <h3 className='mt-2 sm:mt-4 text-default uppercase font-bold text-center text-sm'>
-                StreeApe
-              </h3> */}
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage4} alt='' />
-              {/* <h3 className='mt-2 sm:mt-4 text-default uppercase font-bold text-center text-sm'>
-                StreeApe
-              </h3> */}
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage5} alt='' />
-              {/* <h3 className='mt-2 sm:mt-4 text-default uppercase font-bold text-center text-sm'>
-                StreeApe
-              </h3> */}
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage6} alt='' />
-              {/* <h3 className='mt-2 sm:mt-4 text-default uppercase font-bold text-center text-sm'>
-                StreeApe
-              </h3> */}
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={sliderImage7} alt='' />
-              {/* <h3 className='mt-2 sm:mt-4 text-default uppercase font-bold text-center text-sm'>
-                StreeApe
-              </h3> */}
-            </SwiperSlide>
-          </Swiper>
+          <Slider {...settings}>
+            <div className=''>
+              <img src={sliderImage1} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage2} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage3} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage4} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage5} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage6} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage7} alt='' className='max-w-full' />
+            </div>
+          </Slider>
         </div>
       </section>
     </>
