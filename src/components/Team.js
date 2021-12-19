@@ -14,8 +14,8 @@ const Team = () => {
             </h2>
             <div className='bcm text-gray text-sm sm:text-base sm:w-7/12 px-6 mx-auto'>
               <p>
-                The BLooted mokey was created by Sammy along with Entrepreneurs,
-                Blockchain experts, Marketing players, and Artists… We are
+                The Looted monkey was created by Sammy along with Entrepreneurs,
+                Blockchain experts, Marketing players, and Artists. We are
                 committed to delivering a cutting-edge experience and making{' '}
                 this project a success.
               </p>

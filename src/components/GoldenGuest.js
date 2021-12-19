@@ -11,6 +11,17 @@ import sliderImage8 from '../images/slider/8.png';
 import sliderImage9 from '../images/slider/9.png';
 import sliderImage10 from '../images/slider/10.png';
 
+import sliderImage11 from '../images/slider/11.jpg';
+import sliderImage12 from '../images/slider/12.jpg';
+import sliderImage13 from '../images/slider/13.jpg';
+import sliderImage14 from '../images/slider/14.jpg';
+import sliderImage15 from '../images/slider/15.jpg';
+import sliderImage16 from '../images/slider/16.jpg';
+import sliderImage17 from '../images/slider/17.jpg';
+import sliderImage18 from '../images/slider/18.jpg';
+import sliderImage19 from '../images/slider/19.jpg';
+import sliderImage20 from '../images/slider/20.jpg';
+
 const GoldenGuest = () => {
   const settings = {
     className: 'center',
@@ -19,10 +30,10 @@ const GoldenGuest = () => {
     autoplay: true,
     centerPadding: '0',
     slidesToShow: 1,
-    speed: 3000,
+    speed: 5000,
     rows: 2,
     slidesPerRow: 5,
-    autoplaySpeed: 100,
+    autoplaySpeed: 800,
     easing: 'linear',
     arrows: false,
     responsive: [
@@ -92,6 +103,36 @@ const GoldenGuest = () => {
             </div>{' '}
             <div className=''>
               <img src={sliderImage10} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage11} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage12} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage13} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage14} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage15} alt='' className='max-w-full' />
+            </div>
+            <div className=''>
+              <img src={sliderImage16} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage17} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage18} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage19} alt='' className='max-w-full' />
+            </div>{' '}
+            <div className=''>
+              <img src={sliderImage20} alt='' className='max-w-full' />
             </div>{' '}
           </Slider>
         </div>
