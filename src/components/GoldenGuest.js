@@ -7,6 +7,9 @@ import sliderImage4 from '../images/slider/4.png';
 import sliderImage5 from '../images/slider/5.png';
 import sliderImage6 from '../images/slider/6.png';
 import sliderImage7 from '../images/slider/7.png';
+import sliderImage8 from '../images/slider/8.png';
+import sliderImage9 from '../images/slider/9.png';
+import sliderImage10 from '../images/slider/10.png';
 
 const GoldenGuest = () => {
   const settings = {
@@ -17,8 +20,8 @@ const GoldenGuest = () => {
     centerPadding: '0',
     slidesToShow: 1,
     speed: 3000,
-    rows: 3,
-    slidesPerRow: 9,
+    rows: 2,
+    slidesPerRow: 5,
     autoplaySpeed: 100,
     easing: 'linear',
     arrows: false,
@@ -29,7 +32,7 @@ const GoldenGuest = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
-          rows: 3,
+          rows: 4,
           slidesPerRow: 3,
         },
       },
@@ -76,83 +79,20 @@ const GoldenGuest = () => {
               <img src={sliderImage5} alt='' className='max-w-full' />
             </div>
             <div className=''>
-              <img src={sliderImage5} alt='' className='max-w-full' />
-            </div>{' '}
-            <div className=''>
-              <img src={sliderImage5} alt='' className='max-w-full' />
-            </div>{' '}
-            <div className=''>
-              <img src={sliderImage5} alt='' className='max-w-full' />
-            </div>{' '}
-            <div className=''>
-              <img src={sliderImage5} alt='' className='max-w-full' />
-            </div>{' '}
-            <div className=''>
-              <img src={sliderImage5} alt='' className='max-w-full' />
-            </div>{' '}
-            <div className=''>
-              <img src={sliderImage5} alt='' className='max-w-full' />
-            </div>{' '}
-            <div className=''>
-              <img src={sliderImage5} alt='' className='max-w-full' />
-            </div>{' '}
-            <div className=''>
-              <img src={sliderImage5} alt='' className='max-w-full' />
-            </div>{' '}
-            <div className=''>
-              <img src={sliderImage5} alt='' className='max-w-full' />
-            </div>{' '}
-            <div className=''>
-              <img src={sliderImage5} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
               <img src={sliderImage6} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
-            </div>
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
             </div>{' '}
             <div className=''>
               <img src={sliderImage7} alt='' className='max-w-full' />
             </div>{' '}
             <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
+              <img src={sliderImage8} alt='' className='max-w-full' />
             </div>{' '}
             <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
+              <img src={sliderImage9} alt='' className='max-w-full' />
             </div>{' '}
             <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
+              <img src={sliderImage10} alt='' className='max-w-full' />
             </div>{' '}
-            <div className=''>
-              <img src={sliderImage7} alt='' className='max-w-full' />
-            </div>
           </Slider>
         </div>
       </section>

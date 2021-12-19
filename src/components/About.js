@@ -76,10 +76,8 @@ const About = () => {
               <div className='text-sm sm:text-lg text-gray font-normal lg:mt-10 w-full '>
                 <div className='leading-relaxed w-full overflow-hidden text-default'>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quaerat odio dolorem, nulla perspiciatis placeat accusamus,
-                    doloribus ad quod nobis facere dolores molestias aliquam
-                    consectetur? Quod sequi minima placeat tempora neque.
+                    Mint your Collectible now and be one of the proud 5000
+                    Looted monkey Owner .
                   </p>
                 </div>
                 <div className='flex flex-row flex-wrap gap-2 sm:gap-4 mt-5 sm:mt-10'>
